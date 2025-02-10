@@ -41,7 +41,7 @@ function App() {
     <div className="min-h-screen flex items-center justify-center bg-pink-50 p-4">
       <RainingEmojis />
       <motion.div
-        className="bg-white rounded-[32px] md:p-24 p-20 md:rounded-[32px] rounded-[16px]"
+        className="bg-white rounded-[32px] md:p-24 p-4 md:rounded-[32px] rounded-[16px]"
         animate={{ scale: isDecided ? 1.05 : 1 }}
         transition={{ duration: 0.5 }}>
         <motion.h1
